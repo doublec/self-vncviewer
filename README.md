@@ -13,7 +13,8 @@ Load the vncViewer module using the transporter trees system by running the foll
       registerTree: 'doublec_vncviewer'
                 At: 'path/to/self-vncviewer'.
 
-    bootstrap read: 'applications/vncViewer'
+    bootstrap read: 'vncViewer'
+              From: 'applications'
             InTree: 'doublec_vncviewer'.
 
     modules vncViewer tree: 'doublec_vncviewer'.
